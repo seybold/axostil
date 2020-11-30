@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'rumble_brave_outline_regular';
-    src: url('https://github.com/seybold/axostil/raw/master/css/webfontkit-rumble/rumble_brave_outline-webfont.woff2') format('woff2'),
-         url('https://github.com/seybold/axostil/raw/master/css/webfontkit-rumble/rumble_brave_outline-webfont.woff') format('woff');
+    src: url('rumble_brave_outline-webfont.woff2') format('woff2'),
+         url('rumble_brave_outline-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 

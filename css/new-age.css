@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Slabo 27px', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -52,7 +52,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2 {
@@ -205,7 +205,7 @@ header.masthead .device-container .screen img {
 
 section.about {
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
   color: #ffffff;
 }
 
@@ -291,7 +291,7 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/theresa-2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -444,8 +444,35 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .card {
   background-color: #5a3540;
   color: white;
+  border-radius: 0px;
 }
 
 .card-header h4 {
   margin-top: 0.5em !important;
+}
+
+.card-body span {
+  font-family: 'rumble_brave_outline_regular';
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: 'rumble_brave_outline_regular';
+}
+
+.features .container .row {
+  margin-bottom: 3em;
+}
+
+.jumbotron {
+  background-color: #5a3540 !important;
+  border-color: #fcbd20 !important;
+  border-style: double !important;
+  border-radius: 0px !important;
+  border-width: 8px !important;
+  color: white !important;
+}
+
+i {
+  color: #5a3540 !important;
 }
