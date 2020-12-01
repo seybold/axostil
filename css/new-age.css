@@ -467,6 +467,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 1.5em;
 }
 
+.card-header {
+  background-color: rgba(0,0,0,0);
+  border-bottom: none;
+}
+
 h2 {
   font-family: 'rumble_brave_outline_regular';
 }
@@ -474,13 +479,26 @@ h2 {
 
 .features {
   background-color: rgb(63,44,50);
+} 
+section {
   border-top: double 8px;
   border-color: #fcbd20 !important;
-} 
-
+}
 
 .features .container .row {
   margin-bottom: 3em;
+}
+.img-fluid {
+  border-color: #fcbd20 !important;
+  border-style: solid !important;
+  border-radius: 0px !important;
+  border-width: 4px !important;
+}
+.mb-3, .my-3 {
+  margin: 1rem!important;
+  }
+.contact img {
+  max-width: 300px;
 }
 
 .jumbotron {
@@ -524,3 +542,19 @@ section.contact ul.list-social li.social-instagram a {
     max-width: 960px;
   }
 }
+@media (min-width: 768px) {
+  .card-deck .card {
+    flex: 1 0 0%;
+  }
+}
+@media (max-width: 768px) {
+  .card-deck .card {
+    flex: unset;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    margin-top: 30px;
+  }
+}
+
