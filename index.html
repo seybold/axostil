@@ -142,7 +142,7 @@
         <div class="container" style="max-width:1000px">
             <div class="row">
                 <div class="card-deck mb-3 text-center">
-                    <div class="card mb-4 box-shadow">
+                    <div class="card mb-4 box-shadow" onclick="sendMail('I wanna get started!')">
                         <div class="card-header">
                             <img src="img/cards/offer1-edge3.svg"
                                 style="width: 10%; position: absolute; left: 5px; top: 5px" />
@@ -169,7 +169,10 @@
                             Stilcoaching i butik för att söka, shoppa och styla med secondhandfynd och
                             guidning i vintageshoppingens underbara värld. Innan vi möts planerar vi vad
                             du vill fokusera på för att optimera tiden vi har till fullo.
-                            <br /><br /><br />
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><span style="color: #fcbd20; font-size: 3em;">1 495 .-</span></li>
+                            </ul>
+                            <br />
                             <img src="img/cards/separator1.svg" style="width: 30%; bottom: 20px" />
 
                             <img src="img/cards/offer1-edge3.svg" style="
@@ -188,7 +191,8 @@
                                     " />
                         </div>
                     </div>
-                    <div class="card mb-4 box-shadow">
+                    </a>
+                    <div class="card mb-4 box-shadow" onclick="sendMail('I\'m halfway there!')">
                         <div class="card-header">
                             <img src="img/cards/offer2-edge3.svg"
                                 style="width: 12%; position: absolute; left: 5px; top: 5px" />
@@ -216,8 +220,11 @@
                             Vi ägnar en kort stund åt dina stilutmaningar, ambitioner och önskemål inför
                             dagen. Därefter väntar personlig vintageshopping i de bästa butikerna och
                             stilcoaching på plats.
-                            <br /><br /><br />
-                            <img src="img/cards/separator1.svg" style="width: 30%; bottom: 20px" />
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><span style="color: #fcbd20; font-size: 3em;">2 795 .-</span></li>
+                            </ul>
+                            <br /><br />
+                            <img src="img/cards/separator1.svg" style="width: 30%; bottom: 100px" />
                             <img src="img/cards/offer2-edge3.svg" style="
                                         width: 12%;
                                         position: absolute;
@@ -234,7 +241,7 @@
                                     " />
                         </div>
                     </div>
-                    <div class="card mb-4 box-shadow">
+                    <div class="card mb-4 box-shadow" onclick="sendMail('I want the whole package!')">
                         <div class="card-header">
                             <img src="img/cards/offer3-edge3.svg"
                                 style="width: 14%; position: absolute; left: 5px; top: 5px" />
@@ -266,6 +273,9 @@
                             förvara dina kläder, hur du sorterar och samlar dina plagg över säsongerna. Vi
                             går igenom dina garderobsbehov och drömmar, för att sedan fokusera på
                             vintageshopping och stilcoaching i butik.
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><span style="color: #fcbd20; font-size: 3em;">4 995 .-</span></li>
+                            </ul>
                             <img src="img/cards/offer3-edge3.svg" style="
                                         width: 14%;
                                         position: absolute;
@@ -313,7 +323,7 @@
         <div class="cta-content">
             <div class="container">
                 <h2>What are you waiting for?<br />Hör av dig!</h2>
-                <a href="mailto:theresa.skjolden@gmail.com" class="btn btn-outline btn-xl js-scroll-trigger">Kontakt</a>
+                <a href="mailto:theaxostyle@gmail.com" class="btn btn-outline btn-xl js-scroll-trigger">Kontakt</a>
             </div>
         </div>
         <div class="overlay"></div>
@@ -343,5 +353,11 @@
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
 </body>
+
+<script>
+    function sendMail(subject) {
+        window.location.href = "mailto:theaxostyle@gmail.com?subject=" + subject;
+    }
+</script>
 
 </html>
