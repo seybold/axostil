@@ -443,6 +443,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /* CUSTOM */
 
+.embedded iframe {
+  margin-bottom: 50px;
+  border-color: #fcbd20 !important;
+  border-style: double !important;
+  border-radius: 0px !important;
+  border-width: 8px !important;
+}
+
 .container {
   padding: 0px;
 }
