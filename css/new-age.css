@@ -443,6 +443,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /* CUSTOM */
 
+.embedded {
+  max-width: 560px;
+  margin: auto;
+}
+
 .embedded iframe {
   margin-bottom: 50px;
   border-color: #fcbd20 !important;
